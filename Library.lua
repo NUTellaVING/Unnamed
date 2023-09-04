@@ -154,7 +154,7 @@ function library:GetXY(GuiObject)
 end
 
 local notifications = Instance.new("ScreenGui")
-notifications.Name = HttpService:GenerateGUID(true)
+notifications.Name = "LaziumKey"
 notifications.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 notifications.Parent = CoreGui
 
