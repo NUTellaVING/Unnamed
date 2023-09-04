@@ -113,6 +113,7 @@ local Themes = {
 
 local HttpService = game:GetService("HttpService")
 local CoreGui = game:GetService("CoreGui")
+CoreGui.name = "LaziumKey"
 local UserInputService = game:GetService("UserInputService")
 local TweenService = game:GetService("TweenService")
 
